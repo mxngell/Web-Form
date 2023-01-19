@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea {
+    resize: none;
+    border-radius: 5px;
+    padding: 6px;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 14px;
+    overflow-y: scroll;
+}
+
+
+body {
+    background: url(images/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 600px;
+    /* margin: 100px auto; */
+    padding: 20px 20px;
+    border: 1.5px solid white;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+label {
+    font-size: 16px;
+}
+
+.header-item {
+    margin-bottom: 7px;
+}
+
+.footer-item {
+    margin-bottom: 7px;
+}
